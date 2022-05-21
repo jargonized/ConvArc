@@ -1,7 +1,7 @@
 import numpy as np
 from datetime import datetime
 import multiprocessing
-from sklearn.metrics import ranking
+import sklearn.metrics as ranking
 
 
 def arc_train(epoch, epoch_fn, opt, train_loader, discriminator, logger,
