@@ -4,7 +4,7 @@ from datetime import datetime
 from models.conv_cnn import ConvCNNFactory
 from models.coAttn import CoAttn
 import multiprocessing
-from sklearn.metrics import ranking
+import sklearn.metrics as ranking
 import pdb
 
 def arc_test(epoch, epoch_fn, opt, test_loader, discriminator, logger):
