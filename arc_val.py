@@ -3,7 +3,7 @@ import numpy as np
 from datetime import datetime
 import multiprocessing
 import torch
-from sklearn.metrics import ranking
+import sklearn.metrics as ranking
 
 # Set global values so are being modified.
 best_validation_loss = sys.float_info.max
