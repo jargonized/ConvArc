@@ -4,7 +4,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 from torch.autograd import Variable
 import cv2
 from tqdm import tqdm
-from sklearn.metrics import ranking
+import sklearn.metrics as ranking
 import pdb
 
 def compute_budget_loss(loss, updated_states, cost_per_sample = 0.001):
